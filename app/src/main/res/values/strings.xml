@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Catálogo de Peças PC [CPCApp]</string>
+
+<!-- Categorias -->
+<string name="categoria_placa_mae">Placa-mãe</string>
+<string name="categoria_processador">Processador</string>
+<string name="categoria_placa_video">Placa de Vídeo</string>
+<string name="categoria_memoria_ram">Memória RAM</string>
+<string name="categoria_armazenamento">Armazenamento</string>
+<string name="categoria_fonte">Fonte</string>
+
+<!-- Textos da interface -->
+<string name="preco">Preço</string>
+<string name="compartilhar">Compartilhar</string>
+<string name="ver_site">Ver Site</string>
+<string name="ligar">Ligar</string>
+</resources>
