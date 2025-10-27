@@ -27,27 +27,26 @@ Um aplicativo web moderno para catálogo de peças de computador com suporte a m
 
 app/
 ├── src/main/
-│   ├── java/com/cpc/app/
-│   │   ├── MainActivity.kt
-│   │   ├── PartDetailActivity.kt
-│   │   ├── adapters/
-│   │   │   └── PartsAdapter.kt
-│   │   ├── models/
-│   │   │   └── ComputerPart.kt
-│   │   └── utils/
-│   │   	├── ThemeManager.kt
-│   │   	└── LanguageManager.kt
+│   ├── java/com/example/cpcapp/
+│   │   ├── ui/
+│   │   │   ├── MainActivity.kt
+│   │   │   └── DetalhesActivity.kt
+│   │   ├── adapter/
+│   │   │   └── PecaAdapter.kt
+│   │   └── model/
+│   │       └── Peca.kt
 │   ├── res/
 │   │   ├── layout/
 │   │   │   ├── activity_main.xml
-│   │   │   ├── activity_part_detail.xml
-│   │   │   └── item_part.xml
+│   │   │   ├── activity_detalhes.xml
+│   │   │   └── item_peca.xml
 │   │   ├── values/
-│   │   │   ├── strings.xml
+│   │   │   ├── strings.xml (inglês)
 │   │   │   └── colors.xml
-│   │   ├── values-pt/
-│   │   │   └── strings.xml
-│   │   ├── values-en/
-│   │   │   └── strings.xml
+│   │   ├── values-pt-rBR/
+│   │   │   └── strings.xml (português)
 │   │   └── drawable/
+│   │       ├── processador.png
+│   │       ├── placa_mae.png
+│   │       └── ...
 │   └── AndroidManifest.xml
